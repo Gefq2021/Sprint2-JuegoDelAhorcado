@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/styles-index.css">
+    <title>Ahorcado</title>
+</head>
+
+<body>
+    <div class="contenedor contenedor-1">
+        <h1 class="titulo">Juego del Ahorcado</h1>
+
+        <a class="boton boton-ahorcado" href="ahorcado.html">Iniciar Juego</a>
+    </div>
+    <div class="contenedor contenedor-2">
+        <input id="input" type="text" name="palabra" placeholder="Ingrese una palabra...">
+        <div class="adventencia">
+            <img src="img/exclamacion.png">
+            <p>Solo se permiten como max. 10 caracteres alfabeticos</p>
+        </div>
+        <button class="boton boton-agregar" type="button">Agregar Palabra</button>
+    </div>
+    <div class="contenedor contenedor-3">
+        <img src="img/warning.png" alt="">
+        <p>Solo se permiten letras y un máximo de 10 caracteres</p>
+        <button class="boton boton-ocultar" type="button">Aceptar</button>
+    </div>
+
+    <script src="js/iniciarJuego.js" type="text/javascript"></script>
+    <script src="js/palabraNueva.js" type="text/javascript"></script>
+    <!-- <script src="js/script-ahorcado.js" type="text/javascript"></script> -->
+    
+
+</body>
+</html>

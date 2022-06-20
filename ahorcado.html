@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link rel="stylesheet" type="text/css" href="css/styles-ahorcado.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <img src="img/logo.png">
+        <h1>Juego del Ahorcado</h1>
+    </header>
+
+    <main class="principal">
+        <section class="contenedor-canvas">
+            <canvas class="canvas">ahorcado</canvas>
+        </section>
+        <section class="letras-correctas">
+            <!-- <span class="item-letra">A</span> -->
+        </section>
+        <section class="letras-incorrectas">
+            <!-- <span class="item-error">R</span> -->
+        </section>
+        <section class="botones">
+            <button class="boton boton-nuevoJuego">Nuevo Juego</button>
+            <button class="boton boton-terminar">Terminar</button>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <div class="imagenes">
+            <a href=""><img src="img/git-blanco.png" alt="" class="iconos"></a>
+            <img src="img/linkedin-blanco.png" alt="" class="iconos">
+        </div>
+        <p>® Gerardo Fabián Quispe</p>
+    </footer>
+
+    <div class="contenedor-mensaje">
+        <div class="mensaje">
+            <!-- <img src="img/warning.png" alt=""> -->
+            <p class="parrafo-1"></p>
+            <p class="parrafo-2"></p>
+            <button class="boton boton-ocultar" type="button">Aceptar</button>
+        </div>
+    </div>
+
+
+    <script src="js/script-ahorcado.js" type="text/javascript"></script>
+    <script src="js/iniciarJuego.js" type="text/javascript"></script>
+
+</body>
+</html>
