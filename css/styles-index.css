@@ -99,3 +99,25 @@ img {
 .boton:hover {
     background-color: #0000ff;
 }
+
+@media screen and (max-width: 480px) {
+    .contenedor {
+        width: 100%;
+    }
+
+    .contenedor h1 {
+        text-align: center;
+    }
+
+    #input {
+        width: 95%;
+    }
+
+    .adventencia {
+        width: 80%;
+    }
+
+    .adventencia p {
+        text-align: center;
+    }
+}
